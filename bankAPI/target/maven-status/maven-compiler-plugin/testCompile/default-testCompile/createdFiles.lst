@@ -1,0 +1,5 @@
+tests\AppTest.class
+httpMethods\BaseMethod.class
+util\ConfigCapabilities.class
+httpMethods\Get.class
+util\tests\BaseTest.class
