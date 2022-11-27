@@ -1,10 +1,8 @@
 package tests;
 
-import httpMethods.Delete;
+import http.Delete;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import java.util.logging.Logger;
 
 /***
  * Class: EmptyEndpointTest
@@ -28,5 +26,4 @@ public class EmptyEndPointTest extends Delete{
         Assert.assertFalse(getResponse().asString().isEmpty());
         log.info("There's no user information in this endpoint");
     }
-
 }

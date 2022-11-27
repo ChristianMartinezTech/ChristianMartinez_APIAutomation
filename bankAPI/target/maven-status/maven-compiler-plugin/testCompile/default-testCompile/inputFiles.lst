@@ -1,5 +1,12 @@
-C:\Users\cf.martinez\Desktop\TaeBootcamp\APIAutomation\ChristianMartinez_APIAutomation\bankAPI\src\test\java\tests\AppTest.java
-C:\Users\cf.martinez\Desktop\TaeBootcamp\APIAutomation\ChristianMartinez_APIAutomation\bankAPI\src\test\java\httpMethods\Get.java
-C:\Users\cf.martinez\Desktop\TaeBootcamp\APIAutomation\ChristianMartinez_APIAutomation\bankAPI\src\test\java\httpMethods\BaseMethod.java
+C:\Users\cf.martinez\Desktop\TaeBootcamp\APIAutomation\ChristianMartinez_APIAutomation\bankAPI\src\test\java\http\Put.java
+C:\Users\cf.martinez\Desktop\TaeBootcamp\APIAutomation\ChristianMartinez_APIAutomation\bankAPI\src\test\java\http\Delete.java
+C:\Users\cf.martinez\Desktop\TaeBootcamp\APIAutomation\ChristianMartinez_APIAutomation\bankAPI\src\test\java\tests\GetRequestTest.java
+C:\Users\cf.martinez\Desktop\TaeBootcamp\APIAutomation\ChristianMartinez_APIAutomation\bankAPI\src\test\java\util\users\BankUser.java
+C:\Users\cf.martinez\Desktop\TaeBootcamp\APIAutomation\ChristianMartinez_APIAutomation\bankAPI\src\test\java\http\Post.java
+C:\Users\cf.martinez\Desktop\TaeBootcamp\APIAutomation\ChristianMartinez_APIAutomation\bankAPI\src\test\java\tests\EmptyEndPointTest.java
+C:\Users\cf.martinez\Desktop\TaeBootcamp\APIAutomation\ChristianMartinez_APIAutomation\bankAPI\src\test\java\tests\UpdateAccNumberTest.java
+C:\Users\cf.martinez\Desktop\TaeBootcamp\APIAutomation\ChristianMartinez_APIAutomation\bankAPI\src\test\java\tests\InitializePojoTest.java
 C:\Users\cf.martinez\Desktop\TaeBootcamp\APIAutomation\ChristianMartinez_APIAutomation\bankAPI\src\test\java\util\tests\BaseTest.java
 C:\Users\cf.martinez\Desktop\TaeBootcamp\APIAutomation\ChristianMartinez_APIAutomation\bankAPI\src\test\java\util\ConfigCapabilities.java
+C:\Users\cf.martinez\Desktop\TaeBootcamp\APIAutomation\ChristianMartinez_APIAutomation\bankAPI\src\test\java\http\BaseMethod.java
+C:\Users\cf.martinez\Desktop\TaeBootcamp\APIAutomation\ChristianMartinez_APIAutomation\bankAPI\src\test\java\http\Get.java

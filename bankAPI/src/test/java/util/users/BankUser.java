@@ -7,13 +7,12 @@ public class BankUser {
     private String Name;
     private String LastName;
     private int AccountNumber;
-    private float Amount;
+    private double Amount;
     private String TransactionType;
     private String Email;
     private boolean Active;
     private String Country;
     private String Telephone;
-    private int ID;
 
     /***
      * Bank User Constructor
@@ -26,11 +25,10 @@ public class BankUser {
      * @param active Is the user active?
      * @param country User country
      * @param telephone User telephone
-     * @param id User ID
      */
     public BankUser(String name, String lastName, int accountNumber,
-                    float amount, String transactionType, String email,
-                    boolean active, String country, String telephone, int id){
+                    double amount, String transactionType, String email,
+                    boolean active, String country, String telephone){
         this.Name = name;
         this.LastName = lastName;
         this.AccountNumber = accountNumber;
@@ -40,8 +38,6 @@ public class BankUser {
         this.Active = active;
         this.Country = country;
         this.Telephone = telephone;
-        this.ID = id;
-        ListBankUsers.addUser(this);
     }
 
     // Getter Methods
@@ -57,7 +53,7 @@ public class BankUser {
         return AccountNumber;
     }
 
-    public float getAmount() {
+    public double getAmount() {
         return Amount;
     }
 
@@ -81,10 +77,6 @@ public class BankUser {
         return Telephone;
     }
 
-    public int getID() {
-        return ID;
-    }
-
 
     // Setter Methods
     public void setName(String name) {
@@ -99,7 +91,7 @@ public class BankUser {
         AccountNumber = accountNumber;
     }
 
-    public void setAmount(float amount) {
+    public void setAmount(double amount) {
         Amount = amount;
     }
 
@@ -122,10 +114,4 @@ public class BankUser {
     public void setTelephone(String telephone) {
         Telephone = telephone;
     }
-
-    public void setID(int ID) {
-        this.ID = ID;
-    }
-
-
 }

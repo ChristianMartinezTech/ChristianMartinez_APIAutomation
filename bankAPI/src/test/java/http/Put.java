@@ -1,4 +1,4 @@
-package httpMethods;
+package http;
 
 public class Put {
 }

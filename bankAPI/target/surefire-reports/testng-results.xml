@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-25T02:43:05Z" name="Command line suite" finished-at="2022-11-25T02:43:05Z" duration-ms="17">
+  <suite started-at="2022-11-26T23:30:43Z" name="Command line suite" finished-at="2022-11-26T23:30:47Z" duration-ms="3614">
     <groups>
     </groups>
-    <test started-at="2022-11-25T02:43:05Z" name="Command line test" finished-at="2022-11-25T02:43:05Z" duration-ms="17">
-      <class name="tests.AppTest">
-        <test-method signature="getUser()[pri:0, instance:tests.AppTest@6dbb137d]" started-at="2022-11-25T02:43:05Z" name="getUser" finished-at="2022-11-25T02:43:05Z" duration-ms="3" status="PASS">
+    <test started-at="2022-11-26T23:30:43Z" name="Command line test" finished-at="2022-11-26T23:30:47Z" duration-ms="3614">
+      <class name="tests.InitializePojoTest">
+        <test-method signature="initializeData()[pri:0, instance:tests.InitializePojoTest@4b5a5ed1]" started-at="2022-11-26T23:30:47Z" name="initializeData" finished-at="2022-11-26T23:30:47Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUser -->
-      </class> <!-- tests.AppTest -->
+        </test-method> <!-- initializeData -->
+      </class> <!-- tests.InitializePojoTest -->
+      <class name="tests.EmptyEndPointTest">
+        <test-method signature="verifyEmptyEndpointTest()[pri:0, instance:tests.EmptyEndPointTest@794cb805]" started-at="2022-11-26T23:30:43Z" name="verifyEmptyEndpointTest" finished-at="2022-11-26T23:30:47Z" duration-ms="3591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyEndpointTest -->
+      </class> <!-- tests.EmptyEndPointTest -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->
 </testng-results>

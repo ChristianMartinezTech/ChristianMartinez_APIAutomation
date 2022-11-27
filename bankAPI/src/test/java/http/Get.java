@@ -1,11 +1,4 @@
-package httpMethods;
-
-import io.restassured.RestAssured;
-import io.restassured.response.Response;
-import org.testng.Assert;
-import org.testng.annotations.Test;
-
-import java.util.List;
+package http;
 
 /***
  * Class: Get

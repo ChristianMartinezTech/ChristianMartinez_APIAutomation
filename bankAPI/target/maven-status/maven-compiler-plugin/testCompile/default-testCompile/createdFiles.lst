@@ -1,5 +1,12 @@
-tests\AppTest.class
-httpMethods\BaseMethod.class
-util\ConfigCapabilities.class
-httpMethods\Get.class
+http\BaseMethod.class
+http\Delete.class
 util\tests\BaseTest.class
+util\users\BankUser.class
+tests\GetRequestTest.class
+http\Put.class
+util\ConfigCapabilities.class
+http\Post.class
+tests\UpdateAccNumberTest.class
+tests\EmptyEndPointTest.class
+tests\InitializePojoTest.class
+http\Get.class

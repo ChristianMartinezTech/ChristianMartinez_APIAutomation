@@ -1,4 +1,4 @@
-package httpMethods;
+package http;
 
 import java.util.List;
 
