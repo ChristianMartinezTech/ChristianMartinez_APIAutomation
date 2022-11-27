@@ -5,7 +5,25 @@
 
     <test thread-count="1" name="Empty Endpoint Test">
         <classes>
+            <class name="tests.EmptyEndPointTest"/>
+        </classes>
+    </test>
+
+    <test thread-count="1" name="Initialize data and Post request Test">
+        <classes>
             <class name="tests.InitializePojoTest"/>
+        </classes>
+    </test>
+
+    <test thread-count="1" name="Get Request Test">
+        <classes>
+            <class name="tests.GetRequestTest"/>
+        </classes>
+    </test>
+
+    <test thread-count="1" name="Update Account number Test">
+        <classes>
+            <class name="tests.UpdateAccNumberTest"/>
         </classes>
     </test>
 

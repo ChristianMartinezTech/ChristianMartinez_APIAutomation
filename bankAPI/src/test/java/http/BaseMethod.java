@@ -1,9 +1,13 @@
 package http;
 
 import java.util.List;
+
+import com.github.javafaker.Faker;
 import io.restassured.http.Headers;
 import io.restassured.response.Response;
 import org.testng.log4testng.Logger;
+import util.users.BankUser;
+
 import static io.restassured.RestAssured.*;
 
 
@@ -68,6 +72,27 @@ public class BaseMethod {
     public List<String> getListOfIds() {
         Response response = getResponse();
         return response.jsonPath().getList("ID");
+    }
+
+    /***
+     * Method that creates one user
+     * @return BakUser instance created
+     */
+    public BankUser createUser() {
+        Faker generator = new Faker();
+
+        String name = generator.name().firstName();
+        String lastName = generator.name().lastName();
+        int accountNumber = generator.number().numberBetween(10000001, 99999998);
+        double amount = generator.number().randomDouble(2, 1, 99999);
+        String transactionType = generator.options().option("deposit", "payment", "invoice", "withdrawal");
+        String email = generator.internet().emailAddress();
+        boolean active = generator.bool().bool();
+        String country = generator.address().country();
+        String telephone = generator.phoneNumber().phoneNumber();
+
+        return new BankUser(name, lastName, accountNumber, amount, transactionType, email, active,
+                country, telephone);
     }
 }
 

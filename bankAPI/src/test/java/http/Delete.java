@@ -5,7 +5,7 @@ import java.util.List;
 import static io.restassured.RestAssured.given;
 
 /***
- *
+ * Class that stores all the methods to perform http delete api calls
  */
 public class Delete extends BaseMethod {
 
